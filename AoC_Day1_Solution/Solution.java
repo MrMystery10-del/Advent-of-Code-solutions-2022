@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.ArrayList;
 
-public class Main {
+public class Solution {
 
   private BufferedReader reader;
   private FileReader input;
@@ -10,7 +10,7 @@ public class Main {
   private Boolean finsihed = false;
   private int index = -1;
 
-  public Main() {
+  public Solution() {
     setReader();
     while (!finsihed) {
       count();
@@ -48,6 +48,6 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    new Main();
+    new Solution();
   }
 }
